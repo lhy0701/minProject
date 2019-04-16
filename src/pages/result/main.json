@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "审核结果",
+  "usingComponents": {
+      "i-icon": "../../../static/iviewWabapp/icon/index"
+  }
+}

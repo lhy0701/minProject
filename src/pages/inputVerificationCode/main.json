@@ -1,0 +1,6 @@
+{
+	"navigationBarTitleText": "输入验证码",
+	"usingComponents": {
+		"i-message": "../../../static/iviewWabapp/message/index"
+	}
+}

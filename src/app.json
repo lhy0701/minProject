@@ -1,0 +1,28 @@
+{
+	"pages": [
+		"pages/login/main",
+		"pages/enterMobilePhoneNumber/main",
+		"pages/inputVerificationCode/main",
+		"pages/setThePassword/main",
+		"pages/information/main",
+		"pages/account/main",
+		"pages/searchBank/main",
+		"pages/bankCard/main",
+		"pages/result/main",
+		"pages/showQr/showQr",
+		"pages/record/record",
+		"pages/inputPrice/inputPrice",
+		"pages/detail/main",
+		"pages/index/main",
+		"pages/logs/main"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#3d73f6",
+		"navigationBarTitleText": "车企典",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponents": {
+		"i-icon": "../static/iviewWabapp/icon/index"
+	}
+}

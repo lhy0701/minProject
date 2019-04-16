@@ -1,0 +1,8 @@
+{
+	"navigationBarTitleText": "选择开户行支行",
+	"usingComponents": {
+		"i-cell-group": "../../../static/iviewWabapp/cell-group/index",
+		"i-cell": "../../../static/iviewWabapp/cell/index",
+		"i-message": "../../../static/iviewWabapp/message/index"
+	}
+}

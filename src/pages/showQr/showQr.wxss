@@ -1,0 +1,146 @@
+.show_text1{
+  width: 100%;
+  color: #999999;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.imgView{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.show_img1{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.canvas {
+  width: 150px;
+  height: 150px;
+}
+
+.show_text2{
+  width: 100%;
+  color: #348AF6;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btnView{
+  width: 90%;
+  padding-left: 17px;
+  display: flex;
+  flex-direction:row;
+  margin-top: 20px;
+  margin-bottom: 1rpx;
+}
+
+.show_btn1{
+  width: 28%;
+  height: 35px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666666;
+  line-height: 35px;
+  border: solid #666666 1px;
+  border-radius: 5px
+}
+
+.show_liner1{
+  width: 95%;
+  height: 1px;
+  background: #cccaca;
+  margin-left: 2.5%;
+  margin-top: 30px;
+}
+
+.btnView2{
+  width: 90%;
+  padding-left: 17px;
+  display: flex;
+  flex-direction:row;
+  margin-top: 10px;
+  margin-bottom: 1rpx;
+}
+
+.show_text3{
+  color: #333333;
+  font-size: 14px;
+}
+
+.show_liner2{
+  width: 95%;
+  height: 1px;
+  background: #cccaca;
+  margin-left: 2.5%;
+  margin-top: 10px;
+}
+
+.show_img2{
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  right: 2.5%;
+}
+
+.modalDlg {
+  width: 580rpx;
+  height: 350rpx;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 9999;
+  margin: -370rpx 85rpx;
+  background-color: #fff;
+  border-radius: 36rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.dialogBg2{
+  width: 100%;
+  height: 100vh;
+  background:#000000; 
+  opacity:0.5;
+  position: fixed;
+  top: 0;
+}
+
+ 
+.dlg_text {
+  width: 450rpx;
+  height: 80rpx;
+  text-align: center;
+  border-radius: 12rpx;
+  margin-top: 56rpx;
+  text-indent: 0;
+}
+ 
+.dlg_btn {
+  color: #fff;
+  width: 270rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #599cf9;
+  text-align: center;
+  border-radius: 12rpx;
+  margin-top: 80rpx;
+  font-size: 28rpx;
+  text-indent: 0em;
+}

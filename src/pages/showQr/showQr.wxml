@@ -1,0 +1,27 @@
+<!--pages/showQr/showQr.wxml-->
+<text class='show_text1'>无需加好友，支持信用卡支付</text>
+
+<view class='imgView' >
+<canvas wx:if='{{isPrice}}' class='canvas' canvas-id='canvas' bindlongtap='save'></canvas>
+<image wx:if='{{!isPrice}}' class='show_img1' src='../images/in_result_error_img.png'></image>
+</view>
+
+<text class='show_text2'>{{isPriceText}}</text>
+
+<view class='btnView'>
+  <button class='show_btn1' bindtap='goPrice'> 设置金额 </button>
+  <button class='show_btn1' bindtap='goDownload'> 保存收款码 </button>
+</view>
+
+<view class='show_liner1'></view>
+<view class='btnView2' bindtap='goRecord'>
+  <text class='show_text3'>收款记录</text>
+  <image class='show_img2' src='../images/back_you_two_img.png'></image>
+</view>
+<view class='show_liner2'></view>
+
+<view class='dialogBg2'   wx:if="{{!hasUserInfo}}"></view>
+<view class="modalDlg" wx:if="{{!hasUserInfo}}">
+      <text class='dlg_text'>需要先授权微信获取您的相册权限哦</text>
+      <button class='dlg_btn' wx:if="{{!hasUserInfo}}" open-type="openSetting"> 点击授权 </button>
+  </view>

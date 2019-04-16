@@ -1,0 +1,12 @@
+{
+	"navigationBarTitleText": "注册信息",
+	"usingComponents": {
+		"i-button": "../../../static/iviewWabapp/button/index",
+		"i-icon": "../../../static/iviewWabapp/icon/index",
+		"i-cell-group": "../../../static/iviewWabapp/cell-group/index",
+		"i-cell": "../../../static/iviewWabapp/cell/index",
+		"i-action-sheet": "../../../static/iviewWabapp/action-sheet/index",
+		"i-panel": "../../../static/iviewWabapp/panel/index",
+		"i-message": "../../../static/iviewWabapp/message/index"
+	}
+}

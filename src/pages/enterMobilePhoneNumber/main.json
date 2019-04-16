@@ -1,0 +1,6 @@
+{
+	"navigationBarTitleText": "输入手机号",
+	"usingComponents": {
+		"i-message": "../../../static/iviewWabapp/message/index"
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "车企典登录",
+    "usingComponents": {
+        "i-message": "../../../static/iviewWabapp/message/index"
+    }
+}
